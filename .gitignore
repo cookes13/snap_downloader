@@ -1,2 +1,4 @@
 snap_data.json
 downloaded_media/
+*.tmp
+*.log
