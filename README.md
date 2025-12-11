@@ -9,7 +9,7 @@
 
 
 
-## Instalation Instructions
+## Installation Instructions
 - Clone or Download zip
   -  Extract Files if required
 - run `install_requirements.bat`
