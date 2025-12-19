@@ -332,7 +332,7 @@ def process_json(json_path, out_dir="downloaded_media"):
                     print("Found companion overlay:", found_overlay)
                     if p.suffix.lower() in [".jpg", ".jpeg", ".png", ".webp"]:
                         out_img = str(Path(out_dir) / (p.stem + "_merged.jpg"))
-                        ffmpeg_overlay_image(str(p), found_overlay, out_img)
+                        overlay_image(str(p), found_overlay, out_img)
                         output_path = out_img
                     else:
                         out_vid = str(Path(out_dir) / (p.stem + "_merged.mp4"))
