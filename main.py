@@ -7,6 +7,7 @@ Process Snapchat-style JSON:
 - Embed GPS EXIF into resulting JPGs (if Location contains lat,lon)
 """
 # Check for required imports
+import_errors = []
 try:
     import json
     import os
