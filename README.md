@@ -22,7 +22,7 @@
 
 
 ## Update
-- If snapchat has delivered the memories as `memories_history.json` and a folder called `memories`. Create a folder called `raw_media` and place all the media in that directory, excluding `memories.html`. Then place `memories_history.json` in the folder next to main.py.
+If snapchat has delivered the memories as `memories_history.json` and a folder called `memories`. Create a folder called `raw_media` and place all the media in that directory, excluding `memories.html`. Then place `memories_history.json` in the folder next to main.py.
 
 Then run the python files in this order.
 1. `rebuild_snap_links.py`
