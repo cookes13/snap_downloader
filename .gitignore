@@ -1,5 +1,8 @@
 snap_data.json
+memories_history.json
 downloaded_media/
+raw_media/
+zipped_media/
 *.tmp
 *.log
 *.env
